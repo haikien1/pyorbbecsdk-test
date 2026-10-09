@@ -1,0 +1,593 @@
+[09/26 18:57:45.067696][info][6428][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/26 18:57:45.083034][info][6428][DeviceManager.cpp:25] Current found device(s): (1)
+[09/26 18:57:45.083048][info][6428][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/26 18:57:45.083056][info][6428][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/26 18:57:46.106516][info][6428][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/26 18:57:46.106540][info][6428][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/26 18:57:46.106649][warning][6428][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/26 18:57:46.106863][warning][6428][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/26 18:57:46.106887][warning][6428][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/26 18:57:46.194631][info][6428][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/26 18:57:46.194684][info][6428][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x1F6F509D690
+[09/26 18:57:46.279620][warning][6428][SensorBase.cpp:153] [AY3Z331004H] Failed to update default stream profile for sensor due to no matching stream profile found
+[09/26 18:57:46.281844][info][6428][Pipeline.cpp:228] [AY3Z331004H] Check and set config done!
+[09/26 18:57:46.281861][info][6428][Pipeline.cpp:266] [AY3Z331004H] Try to start streams!
+[09/26 18:57:46.281868][info][6428][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Color, format: MJPG, width: 1280, height: 720, fps: 30}
+[09/26 18:57:46.281875][info][6428][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Color
+[09/26 18:57:46.281879][info][6428][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Color, format: MJPG, width: 1280, height: 720, fps: 30}
+[09/26 18:57:46.359239][info][6428][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/26 18:57:46.359260][info][6428][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Depth
+[09/26 18:57:46.359269][info][6428][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/26 18:57:46.424292][info][6428][Pipeline.cpp:293] [AY3Z331004H] Start streams done!
+[09/26 18:57:46.424301][info][6428][Pipeline.cpp:250] [AY3Z331004H] Pipeline start done!
+[09/26 18:57:46.471490][info][6428][Pipeline.cpp:367] [AY3Z331004H] Try to stop pipeline!
+[09/26 18:57:46.471510][info][6428][Pipeline.cpp:343] [AY3Z331004H] Try to stop streams!
+[09/26 18:57:46.471544][info][6428][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STOPPING@Depth
+[09/26 18:57:46.502165][info][22804][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Color
+[09/26 18:57:46.611967][info][6428][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Depth
+[09/26 18:57:46.612168][info][6428][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Depth
+[09/26 18:57:46.612185][info][6428][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Color
+[09/26 18:57:46.742911][info][6428][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Color
+[09/26 18:57:46.743871][info][6428][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Color
+[09/26 18:57:46.743884][info][6428][Pipeline.cpp:363] [AY3Z331004H] Stop streams done!
+[09/26 18:57:46.744679][info][6428][Pipeline.cpp:393] [AY3Z331004H] Stop pipeline done!
+[09/26 18:57:46.744692][info][6428][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x1F6F509D690
+[09/26 18:57:46.744785][info][6428][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/26 18:57:46.744848][info][6428][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/26 18:57:52.919561][info][23160][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/26 18:57:52.934369][info][23160][DeviceManager.cpp:25] Current found device(s): (1)
+[09/26 18:57:52.934374][info][23160][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/26 18:57:52.934377][info][23160][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/26 18:57:53.940778][info][23160][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/26 18:57:53.940820][info][23160][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/26 18:57:53.940971][warning][23160][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/26 18:57:53.941323][warning][23160][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/26 18:57:53.941426][warning][23160][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/26 18:57:53.972226][info][23160][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/26 18:57:53.972272][info][23160][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x2781A3765E0
+[09/26 18:57:54.055584][warning][23160][SensorBase.cpp:153] [AY3Z331004H] Failed to update default stream profile for sensor due to no matching stream profile found
+[09/26 18:57:54.058026][info][23160][Pipeline.cpp:228] [AY3Z331004H] Check and set config done!
+[09/26 18:57:54.058046][info][23160][Pipeline.cpp:266] [AY3Z331004H] Try to start streams!
+[09/26 18:57:54.058054][info][23160][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Color, format: MJPG, width: 1280, height: 720, fps: 30}
+[09/26 18:57:54.058061][info][23160][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Color
+[09/26 18:57:54.058064][info][23160][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Color, format: MJPG, width: 1280, height: 720, fps: 30}
+[09/26 18:57:54.134921][info][23160][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/26 18:57:54.134941][info][23160][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Depth
+[09/26 18:57:54.134951][info][23160][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/26 18:57:54.199217][info][23160][Pipeline.cpp:293] [AY3Z331004H] Start streams done!
+[09/26 18:57:54.199225][info][23160][Pipeline.cpp:250] [AY3Z331004H] Pipeline start done!
+[09/26 18:57:54.231095][info][23160][Pipeline.cpp:367] [AY3Z331004H] Try to stop pipeline!
+[09/26 18:57:54.231106][info][23160][Pipeline.cpp:343] [AY3Z331004H] Try to stop streams!
+[09/26 18:57:54.231124][info][23160][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STOPPING@Depth
+[09/26 18:57:54.245409][info][22140][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Color
+[09/26 18:57:54.362035][warning][22140][ObException.cpp:26] A recoverable_exception has occurred!
+ - where: TimestampAnomalyDetector.cpp(56)
+ - msg: Timestamp anomaly detected, timestamp: 592568035, lastTimestamp: 584988828, currentDiff: 7579207, diffLastValid: 7579207, maxValidTimestampDiff: 5000000
+ - type: UNKNOWN
+ - status: 101
+[09/26 18:57:54.362899][warning][22140][SensorBase.cpp:464] [AY3Z331004H] Execute failure! A libobsensor_exception has occurred!
+ - where: SensorBase.cpp(464):libobsensor::SensorBase::outputFrame
+ - msg: Timestamp anomaly detected, timestamp: 592568035, lastTimestamp: 584988828, currentDiff: 7579207, diffLastValid: 7579207, maxValidTimestampDiff: 5000000
+ - type: class libobsensor::recoverable_exception
+ - status: 101
+[09/26 18:57:54.363135][error][22140][SensorBase.cpp:464] [AY3Z331004H] Timestamp anomaly detected, frame: 592568035, sensor: Color
+[09/26 18:57:54.382698][info][23160][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Depth
+[09/26 18:57:54.382952][info][23160][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Depth
+[09/26 18:57:54.382977][info][23160][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Color
+[09/26 18:57:54.516998][info][23160][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Color
+[09/26 18:57:54.517241][info][23160][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Color
+[09/26 18:57:54.517244][info][23160][Pipeline.cpp:363] [AY3Z331004H] Stop streams done!
+[09/26 18:57:54.517807][info][23160][Pipeline.cpp:393] [AY3Z331004H] Stop pipeline done!
+[09/26 18:57:54.517819][info][23160][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x2781A3765E0
+[09/26 18:57:54.517885][info][23160][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/26 18:57:54.517926][info][23160][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/26 18:59:24.842547][info][16612][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/26 18:59:24.857072][info][16612][DeviceManager.cpp:25] Current found device(s): (1)
+[09/26 18:59:24.857077][info][16612][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/26 18:59:24.857080][info][16612][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/26 18:59:25.885530][info][16612][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/26 18:59:25.885569][info][16612][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/26 18:59:25.885708][warning][16612][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/26 18:59:25.885959][warning][16612][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/26 18:59:25.886050][warning][16612][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/26 18:59:25.965506][info][16612][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/26 18:59:25.965551][info][16612][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x16DC91D9640
+[09/26 18:59:26.048641][warning][16612][SensorBase.cpp:153] [AY3Z331004H] Failed to update default stream profile for sensor due to no matching stream profile found
+[09/26 18:59:26.051103][info][16612][Pipeline.cpp:228] [AY3Z331004H] Check and set config done!
+[09/26 18:59:26.051122][info][16612][Pipeline.cpp:266] [AY3Z331004H] Try to start streams!
+[09/26 18:59:26.051129][info][16612][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Color, format: MJPG, width: 1280, height: 720, fps: 30}
+[09/26 18:59:26.051137][info][16612][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Color
+[09/26 18:59:26.051140][info][16612][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Color, format: MJPG, width: 1280, height: 720, fps: 30}
+[09/26 18:59:26.127311][info][16612][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/26 18:59:26.127327][info][16612][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Depth
+[09/26 18:59:26.127335][info][16612][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/26 18:59:26.191842][info][16612][Pipeline.cpp:293] [AY3Z331004H] Start streams done!
+[09/26 18:59:26.191850][info][16612][Pipeline.cpp:250] [AY3Z331004H] Pipeline start done!
+[09/26 18:59:26.231557][info][16612][Pipeline.cpp:367] [AY3Z331004H] Try to stop pipeline!
+[09/26 18:59:26.231567][info][16612][Pipeline.cpp:343] [AY3Z331004H] Try to stop streams!
+[09/26 18:59:26.231585][info][16612][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STOPPING@Depth
+[09/26 18:59:26.270321][info][18308][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Color
+[09/26 18:59:26.373878][info][16612][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Depth
+[09/26 18:59:26.374033][info][16612][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Depth
+[09/26 18:59:26.374048][info][16612][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Color
+[09/26 18:59:26.510211][info][16612][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Color
+[09/26 18:59:26.510434][info][16612][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Color
+[09/26 18:59:26.510438][info][16612][Pipeline.cpp:363] [AY3Z331004H] Stop streams done!
+[09/26 18:59:26.510990][info][16612][Pipeline.cpp:393] [AY3Z331004H] Stop pipeline done!
+[09/26 18:59:26.511001][info][16612][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x16DC91D9640
+[09/26 18:59:26.511069][info][16612][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/26 18:59:26.511113][info][16612][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/26 18:59:47.295315][info][8880][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/26 18:59:47.310776][info][8880][DeviceManager.cpp:25] Current found device(s): (1)
+[09/26 18:59:47.310782][info][8880][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/26 18:59:47.310786][info][8880][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/26 18:59:48.334820][info][8880][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/26 18:59:48.334851][info][8880][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/26 18:59:48.334988][warning][8880][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/26 18:59:48.335200][warning][8880][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/26 18:59:48.335291][warning][8880][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/26 18:59:48.366804][info][8880][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/26 18:59:48.366853][info][8880][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x1EE2DDD37A0
+[09/26 18:59:48.450124][warning][8880][SensorBase.cpp:153] [AY3Z331004H] Failed to update default stream profile for sensor due to no matching stream profile found
+[09/26 18:59:48.452608][info][8880][Pipeline.cpp:228] [AY3Z331004H] Check and set config done!
+[09/26 18:59:48.452630][info][8880][Pipeline.cpp:266] [AY3Z331004H] Try to start streams!
+[09/26 18:59:48.452638][info][8880][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Color, format: MJPG, width: 1280, height: 720, fps: 30}
+[09/26 18:59:48.452645][info][8880][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Color
+[09/26 18:59:48.452649][info][8880][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Color, format: MJPG, width: 1280, height: 720, fps: 30}
+[09/26 18:59:48.547852][info][8880][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/26 18:59:48.547869][info][8880][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Depth
+[09/26 18:59:48.547878][info][8880][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/26 18:59:48.612742][info][8880][Pipeline.cpp:293] [AY3Z331004H] Start streams done!
+[09/26 18:59:48.612760][info][8880][Pipeline.cpp:250] [AY3Z331004H] Pipeline start done!
+[09/26 18:59:48.691556][info][780][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Color
+[09/26 18:59:48.947844][info][2288][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Depth
+[09/26 18:59:49.089963][info][8880][Pipeline.cpp:367] [AY3Z331004H] Try to stop pipeline!
+[09/26 18:59:49.089971][info][8880][Pipeline.cpp:343] [AY3Z331004H] Try to stop streams!
+[09/26 18:59:49.089984][info][8880][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Depth
+[09/26 18:59:49.162883][info][8880][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Depth
+[09/26 18:59:49.163076][info][8880][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Depth
+[09/26 18:59:49.163085][info][8880][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Color
+[09/26 18:59:49.294303][info][8880][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Color
+[09/26 18:59:49.294521][info][8880][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Color
+[09/26 18:59:49.294525][info][8880][Pipeline.cpp:363] [AY3Z331004H] Stop streams done!
+[09/26 18:59:49.295113][info][8880][Pipeline.cpp:393] [AY3Z331004H] Stop pipeline done!
+[09/26 18:59:49.295125][info][8880][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x1EE2DDD37A0
+[09/26 18:59:49.295205][info][8880][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/26 18:59:49.295249][info][8880][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/26 19:00:08.032289][info][5272][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/26 19:00:08.047143][info][5272][DeviceManager.cpp:25] Current found device(s): (1)
+[09/26 19:00:08.047149][info][5272][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/26 19:00:08.047153][info][5272][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/26 19:00:09.064674][info][5272][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/26 19:00:09.064707][info][5272][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/26 19:00:09.064829][warning][5272][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/26 19:00:09.065103][warning][5272][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/26 19:00:09.065194][warning][5272][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/26 19:00:09.097043][info][5272][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/26 19:00:09.097118][info][5272][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x229F1D7D230
+[09/26 19:00:09.185496][warning][5272][SensorBase.cpp:153] [AY3Z331004H] Failed to update default stream profile for sensor due to no matching stream profile found
+[09/26 19:00:09.188083][info][5272][Pipeline.cpp:228] [AY3Z331004H] Check and set config done!
+[09/26 19:00:09.188105][info][5272][Pipeline.cpp:266] [AY3Z331004H] Try to start streams!
+[09/26 19:00:09.188112][info][5272][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Color, format: MJPG, width: 1280, height: 720, fps: 30}
+[09/26 19:00:09.188120][info][5272][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Color
+[09/26 19:00:09.188124][info][5272][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Color, format: MJPG, width: 1280, height: 720, fps: 30}
+[09/26 19:00:09.265691][info][5272][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/26 19:00:09.265707][info][5272][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Depth
+[09/26 19:00:09.265714][info][5272][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/26 19:00:09.330438][info][5272][Pipeline.cpp:293] [AY3Z331004H] Start streams done!
+[09/26 19:00:09.330448][info][5272][Pipeline.cpp:250] [AY3Z331004H] Pipeline start done!
+[09/26 19:00:09.409394][info][6440][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Color
+[09/26 19:00:09.535120][info][4516][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Depth
+[09/26 19:00:14.419204][info][6440][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.540916fps
+[09/26 19:00:14.419354][info][21832][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.546816fps
+[09/26 19:00:14.579410][info][4516][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.111023fps
+[09/26 19:00:14.582008][info][22240][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.119048fps
+[09/26 19:00:19.435284][info][6440][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.904308fps
+[09/26 19:00:19.435399][info][21832][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.904308fps
+[09/26 19:00:19.595238][info][4516][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=9.968102fps
+[09/26 19:00:19.599220][info][22240][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=9.964128fps
+[09/26 19:00:24.449727][info][6440][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.916235fps
+[09/26 19:00:24.449903][info][21832][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.916235fps
+[09/26 19:00:24.610457][info][4516][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=9.970090fps
+[09/26 19:00:24.612992][info][22240][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=9.974068fps
+[09/26 19:00:29.464971][info][6440][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.910271fps
+[09/26 19:00:29.465091][info][21832][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.904308fps
+[09/26 19:00:29.624832][info][4516][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=9.972078fps
+[09/26 19:00:29.627451][info][22240][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=9.970090fps
+[09/26 19:00:34.480287][info][6440][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=25.717705fps
+[09/26 19:00:34.480380][info][21832][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=25.722832fps
+[09/26 19:00:34.640169][info][4516][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=9.968102fps
+[09/26 19:00:34.642863][info][22240][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=9.970090fps
+[09/26 19:00:39.494944][info][6440][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.716793fps
+[09/26 19:00:39.495094][info][21832][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.710869fps
+[09/26 19:00:39.655699][info][4516][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=9.970090fps
+[09/26 19:00:39.658397][info][22240][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=9.968102fps
+[09/26 19:00:44.510424][info][6440][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.904308fps
+[09/26 19:00:44.510563][info][21832][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.910271fps
+[09/26 19:00:44.670294][info][4516][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=9.970090fps
+[09/26 19:00:44.673553][info][22240][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=9.970090fps
+[09/26 19:00:49.525708][info][6440][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=27.716850fps
+[09/26 19:00:49.525826][info][21832][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=27.716850fps
+[09/26 19:00:49.685689][info][4516][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=9.970090fps
+[09/26 19:00:49.688272][info][22240][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=9.970090fps
+[09/26 19:00:54.701066][info][4516][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=9.970090fps
+[09/26 19:00:54.704016][info][22240][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=9.970090fps
+[09/26 19:00:55.408872][info][6440][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=12.578616fps
+[09/26 19:00:55.409215][info][21832][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=12.576479fps
+[09/26 19:00:59.715501][info][4516][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=9.970090fps
+[09/26 19:00:59.718006][info][22240][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=9.972078fps
+[09/26 19:01:00.424426][info][6440][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=3.389155fps
+[09/26 19:01:00.424558][info][21832][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=3.389831fps
+[09/26 19:01:04.730897][info][4516][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=9.970090fps
+[09/26 19:01:04.733567][info][22240][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=9.968102fps
+[09/26 19:01:05.439492][info][6440][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=27.318047fps
+[09/26 19:01:05.439643][info][21832][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=27.318047fps
+[09/26 19:01:09.746254][info][4516][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=9.968102fps
+[09/26 19:01:09.748920][info][22240][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=9.970090fps
+[09/26 19:01:10.454425][info][6440][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.910271fps
+[09/26 19:01:10.454539][info][21832][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.910271fps
+[09/26 19:01:10.715982][info][5272][Pipeline.cpp:367] [AY3Z331004H] Try to stop pipeline!
+[09/26 19:01:10.715998][info][5272][Pipeline.cpp:343] [AY3Z331004H] Try to stop streams!
+[09/26 19:01:10.716025][info][5272][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Depth
+[09/26 19:01:10.793911][info][5272][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Depth
+[09/26 19:01:10.794168][info][5272][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Depth
+[09/26 19:01:10.794178][info][5272][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Color
+[09/26 19:01:10.930011][info][5272][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Color
+[09/26 19:01:10.930331][info][5272][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Color
+[09/26 19:01:10.930333][info][5272][Pipeline.cpp:363] [AY3Z331004H] Stop streams done!
+[09/26 19:01:10.930987][info][5272][Pipeline.cpp:393] [AY3Z331004H] Stop pipeline done!
+[09/26 19:01:10.931048][info][5272][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x229F1D7D230
+[09/26 19:01:10.931134][info][5272][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/26 19:01:10.931184][info][5272][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/27 19:13:25.649339][info][7660][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/27 19:13:25.657886][info][7660][DeviceManager.cpp:25] Current found device(s): (0)
+[09/27 19:13:25.657895][info][7660][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/27 19:13:26.682218][info][7660][DeviceManager.cpp:25] Current device(s) list: (0)
+[09/27 19:15:38.075261][info][15668][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/27 19:15:38.092685][info][15668][DeviceManager.cpp:25] Current found device(s): (1)
+[09/27 19:15:38.092690][info][15668][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/27 19:15:38.092693][info][15668][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/27 19:15:39.118551][info][15668][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/27 19:15:39.118576][info][15668][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/27 19:15:39.120853][warning][15668][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/27 19:15:39.121016][warning][15668][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/27 19:15:39.121101][warning][15668][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/27 19:15:39.176904][info][15668][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/27 19:15:39.177831][info][15668][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x2276343BCB0
+[09/27 19:15:39.190591][info][15668][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x2276343BCB0
+[09/27 19:16:44.869175][info][15112][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/27 19:16:44.884025][info][15112][DeviceManager.cpp:25] Current found device(s): (1)
+[09/27 19:16:44.884030][info][15112][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/27 19:16:44.884033][info][15112][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/27 19:16:45.909342][info][15112][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/27 19:16:45.909364][info][15112][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/27 19:16:45.909538][warning][15112][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/27 19:16:45.909739][warning][15112][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/27 19:16:45.909828][warning][15112][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/27 19:16:45.996104][info][15112][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/27 19:16:45.996246][info][15112][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x18B700A1260
+[09/27 19:16:46.002531][info][15112][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x18B700A1260
+[09/27 19:16:48.989620][info][13892][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/27 19:16:49.004164][info][13892][DeviceManager.cpp:25] Current found device(s): (1)
+[09/27 19:16:49.004170][info][13892][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/27 19:16:49.004173][info][13892][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/27 19:16:50.026341][info][13892][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/27 19:16:50.026362][info][13892][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/27 19:16:50.026539][warning][13892][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/27 19:16:50.026752][warning][13892][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/27 19:16:50.026838][warning][13892][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/27 19:16:50.059920][info][13892][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/27 19:16:50.060085][info][13892][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x1EA2061E120
+[09/27 19:16:50.097659][warning][13892][SensorBase.cpp:153] [AY3Z331004H] Failed to update default stream profile for sensor due to no matching stream profile found
+[09/27 19:16:50.151154][warning][13892][ObException.cpp:26] A recoverable_exception has occurred!
+ - where: DeviceBase.cpp(393)
+ - msg: Device Component 'preset manager' not found!
+ - type: NOT_FOUND
+ - status: 114
+[09/27 19:16:50.157087][info][13892][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x1EA2061E120
+[09/27 19:16:50.157476][info][13892][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/27 19:16:50.157690][info][13892][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/29 17:39:48.643705][info][23748][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/29 17:39:48.660600][info][23748][DeviceManager.cpp:25] Current found device(s): (1)
+[09/29 17:39:48.660606][info][23748][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/29 17:39:48.660609][info][23748][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/29 17:39:49.688108][info][23748][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/29 17:39:49.688131][info][23748][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/29 17:39:49.689799][warning][23748][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/29 17:39:49.689988][warning][23748][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/29 17:39:49.690071][warning][23748][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/29 17:39:49.742716][info][23748][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/29 17:39:49.743471][info][23748][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x184F1FABBA0
+[09/29 17:39:49.779741][warning][23748][SensorBase.cpp:153] [AY3Z331004H] Failed to update default stream profile for sensor due to no matching stream profile found
+[09/29 17:39:49.782017][info][23748][Pipeline.cpp:228] [AY3Z331004H] Check and set config done!
+[09/29 17:39:49.782547][info][23748][Pipeline.cpp:266] [AY3Z331004H] Try to start streams!
+[09/29 17:39:49.782564][info][23748][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/29 17:39:49.782712][info][23748][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Depth
+[09/29 17:39:49.782722][info][23748][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/29 17:39:49.851294][info][23748][Pipeline.cpp:293] [AY3Z331004H] Start streams done!
+[09/29 17:39:49.851305][info][23748][Pipeline.cpp:250] [AY3Z331004H] Pipeline start done!
+[09/29 17:39:50.156504][info][23956][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Depth
+[09/29 17:39:55.250765][info][23956][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.208088fps
+[09/29 17:39:55.254109][info][24008][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.214103fps
+[09/29 17:40:00.346554][info][23956][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.007849fps
+[09/29 17:40:00.349752][info][24008][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.007849fps
+[09/29 17:40:05.441893][info][23956][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.009814fps
+[09/29 17:40:05.445173][info][24008][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.009814fps
+[09/29 17:40:10.537369][info][23956][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.009814fps
+[09/29 17:40:10.541281][info][24008][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.007849fps
+[09/29 17:40:14.876708][info][23748][Pipeline.cpp:367] [AY3Z331004H] Try to stop pipeline!
+[09/29 17:40:14.876730][info][23748][Pipeline.cpp:343] [AY3Z331004H] Try to stop streams!
+[09/29 17:40:14.876742][info][23748][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Depth
+[09/29 17:40:14.949856][info][23748][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Depth
+[09/29 17:40:14.950012][info][23748][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Depth
+[09/29 17:40:14.950015][info][23748][Pipeline.cpp:363] [AY3Z331004H] Stop streams done!
+[09/29 17:40:14.950573][info][23748][Pipeline.cpp:393] [AY3Z331004H] Stop pipeline done!
+[09/29 17:40:15.007309][info][23748][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x184F1FABBA0
+[09/29 17:40:15.007798][info][23748][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/29 17:40:21.180839][info][23632][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/29 17:40:21.196143][info][23632][DeviceManager.cpp:25] Current found device(s): (1)
+[09/29 17:40:21.196153][info][23632][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/29 17:40:21.196157][info][23632][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/29 17:40:22.226728][info][23632][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/29 17:40:22.226749][info][23632][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/29 17:40:22.226871][warning][23632][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/29 17:40:22.227053][warning][23632][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/29 17:40:22.227141][warning][23632][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/29 17:40:22.257359][info][23632][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/29 17:40:22.257405][info][23632][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x243878FA770
+[09/29 17:40:22.293408][warning][23632][SensorBase.cpp:153] [AY3Z331004H] Failed to update default stream profile for sensor due to no matching stream profile found
+[09/29 17:40:22.295511][info][23632][Pipeline.cpp:228] [AY3Z331004H] Check and set config done!
+[09/29 17:40:22.296348][info][23632][Pipeline.cpp:266] [AY3Z331004H] Try to start streams!
+[09/29 17:40:22.296368][info][23632][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/29 17:40:22.296378][info][23632][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Depth
+[09/29 17:40:22.296382][info][23632][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/29 17:40:22.360857][info][23632][Pipeline.cpp:293] [AY3Z331004H] Start streams done!
+[09/29 17:40:22.360865][info][23632][Pipeline.cpp:250] [AY3Z331004H] Pipeline start done!
+[09/29 17:40:22.565343][info][3436][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Depth
+[09/29 17:40:25.406481][info][23632][Pipeline.cpp:367] [AY3Z331004H] Try to stop pipeline!
+[09/29 17:40:25.406520][info][23632][Pipeline.cpp:343] [AY3Z331004H] Try to stop streams!
+[09/29 17:40:25.406545][info][23632][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Depth
+[09/29 17:40:25.476763][info][23632][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Depth
+[09/29 17:40:25.477012][info][23632][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Depth
+[09/29 17:40:25.477015][info][23632][Pipeline.cpp:363] [AY3Z331004H] Stop streams done!
+[09/29 17:40:25.477552][info][23632][Pipeline.cpp:393] [AY3Z331004H] Stop pipeline done!
+[09/29 17:40:25.504588][info][23632][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x243878FA770
+[09/29 17:40:25.504682][info][23632][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/29 17:40:28.016734][info][5536][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/29 17:40:28.031811][info][5536][DeviceManager.cpp:25] Current found device(s): (1)
+[09/29 17:40:28.031816][info][5536][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/29 17:40:28.031819][info][5536][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/29 17:40:29.058664][info][5536][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/29 17:40:29.058696][info][5536][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/29 17:40:29.058857][warning][5536][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/29 17:40:29.059064][warning][5536][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/29 17:40:29.059208][warning][5536][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/29 17:40:29.091236][info][5536][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/29 17:40:29.091289][info][5536][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x246A46326C0
+[09/29 17:40:29.125187][warning][5536][SensorBase.cpp:153] [AY3Z331004H] Failed to update default stream profile for sensor due to no matching stream profile found
+[09/29 17:40:29.127134][info][5536][Pipeline.cpp:228] [AY3Z331004H] Check and set config done!
+[09/29 17:40:29.127639][info][5536][Pipeline.cpp:266] [AY3Z331004H] Try to start streams!
+[09/29 17:40:29.127657][info][5536][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/29 17:40:29.127667][info][5536][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Depth
+[09/29 17:40:29.127671][info][5536][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/29 17:40:29.192206][info][5536][Pipeline.cpp:293] [AY3Z331004H] Start streams done!
+[09/29 17:40:29.192214][info][5536][Pipeline.cpp:250] [AY3Z331004H] Pipeline start done!
+[09/29 17:40:29.396620][info][12600][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Depth
+[09/29 17:40:31.236045][info][5536][Pipeline.cpp:367] [AY3Z331004H] Try to stop pipeline!
+[09/29 17:40:31.236136][info][5536][Pipeline.cpp:343] [AY3Z331004H] Try to stop streams!
+[09/29 17:40:31.236184][info][5536][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Depth
+[09/29 17:40:31.310097][info][5536][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Depth
+[09/29 17:40:31.310294][info][5536][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Depth
+[09/29 17:40:31.310297][info][5536][Pipeline.cpp:363] [AY3Z331004H] Stop streams done!
+[09/29 17:40:31.310818][info][5536][Pipeline.cpp:393] [AY3Z331004H] Stop pipeline done!
+[09/29 17:40:31.338462][info][5536][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x246A46326C0
+[09/29 17:40:31.338550][info][5536][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/29 17:41:26.306431][info][25104][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/29 17:41:26.321266][info][25104][DeviceManager.cpp:25] Current found device(s): (1)
+[09/29 17:41:26.321271][info][25104][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/29 17:41:26.321274][info][25104][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/29 17:41:27.351610][info][25104][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/29 17:41:27.351639][info][25104][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/29 17:41:27.351790][warning][25104][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/29 17:41:27.351818][warning][25104][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/29 17:41:27.351833][warning][25104][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/29 17:41:27.432270][info][25104][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/29 17:41:27.432314][info][25104][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x250A77D3520
+[09/29 17:41:27.466921][warning][25104][SensorBase.cpp:153] [AY3Z331004H] Failed to update default stream profile for sensor due to no matching stream profile found
+[09/29 17:41:27.468727][info][25104][Pipeline.cpp:228] [AY3Z331004H] Check and set config done!
+[09/29 17:41:27.469282][info][25104][Pipeline.cpp:266] [AY3Z331004H] Try to start streams!
+[09/29 17:41:27.469295][info][25104][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/29 17:41:27.469304][info][25104][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Depth
+[09/29 17:41:27.469308][info][25104][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/29 17:41:27.537175][info][25104][Pipeline.cpp:293] [AY3Z331004H] Start streams done!
+[09/29 17:41:27.537181][info][25104][Pipeline.cpp:250] [AY3Z331004H] Pipeline start done!
+[09/29 17:41:27.741879][info][7388][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Depth
+[09/29 17:41:32.836860][info][7388][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.206085fps
+[09/29 17:41:32.841072][info][25476][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.212097fps
+[09/29 17:41:37.575152][info][25104][Pipeline.cpp:367] [AY3Z331004H] Try to stop pipeline!
+[09/29 17:41:37.575228][info][25104][Pipeline.cpp:343] [AY3Z331004H] Try to stop streams!
+[09/29 17:41:37.575261][info][25104][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Depth
+[09/29 17:41:37.648023][info][25104][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Depth
+[09/29 17:41:37.648261][info][25104][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Depth
+[09/29 17:41:37.648264][info][25104][Pipeline.cpp:363] [AY3Z331004H] Stop streams done!
+[09/29 17:41:37.648778][info][25104][Pipeline.cpp:393] [AY3Z331004H] Stop pipeline done!
+[09/29 17:41:37.676008][info][25104][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x250A77D3520
+[09/29 17:41:37.676127][info][25104][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[09/29 17:42:05.504054][info][24924][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[09/29 17:42:05.519011][info][24924][DeviceManager.cpp:25] Current found device(s): (1)
+[09/29 17:42:05.519016][info][24924][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/29 17:42:05.519020][info][24924][DeviceManager.cpp:463] Enable net device enumeration: true
+[09/29 17:42:06.544144][info][24924][DeviceManager.cpp:25] Current device(s) list: (1)
+[09/29 17:42:06.544177][info][24924][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[09/29 17:42:06.544336][warning][24924][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[09/29 17:42:06.544721][warning][24924][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[09/29 17:42:06.544742][warning][24924][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[09/29 17:42:06.577952][info][24924][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[09/29 17:42:06.578002][info][24924][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x16EB09ED8B0
+[09/29 17:42:06.613654][warning][24924][SensorBase.cpp:153] [AY3Z331004H] Failed to update default stream profile for sensor due to no matching stream profile found
+[09/29 17:42:06.615744][info][24924][Pipeline.cpp:228] [AY3Z331004H] Check and set config done!
+[09/29 17:42:06.616278][info][24924][Pipeline.cpp:266] [AY3Z331004H] Try to start streams!
+[09/29 17:42:06.616294][info][24924][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/29 17:42:06.616303][info][24924][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Depth
+[09/29 17:42:06.616308][info][24924][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Depth, format: Y14, width: 1280, height: 800, fps: 10}
+[09/29 17:42:06.680726][info][24924][Pipeline.cpp:293] [AY3Z331004H] Start streams done!
+[09/29 17:42:06.680738][info][24924][Pipeline.cpp:250] [AY3Z331004H] Pipeline start done!
+[09/29 17:42:06.885240][info][2512][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Depth
+[09/29 17:42:11.980325][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.206085fps
+[09/29 17:42:11.984832][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.214103fps
+[09/29 17:42:17.075827][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.007849fps
+[09/29 17:42:17.079795][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.009814fps
+[09/29 17:42:22.171563][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.007849fps
+[09/29 17:42:22.175384][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.009814fps
+[09/29 17:42:27.266902][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.009814fps
+[09/29 17:42:27.270681][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.007849fps
+[09/29 17:42:32.362502][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.007849fps
+[09/29 17:42:32.366032][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.009814fps
+[09/29 17:42:37.458117][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.009814fps
+[09/29 17:42:37.462100][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.007849fps
+[09/29 17:42:42.553656][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.007849fps
+[09/29 17:42:42.557575][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.007849fps
+[09/29 17:42:47.649537][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.007849fps
+[09/29 17:42:47.653267][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.009814fps
+[09/29 17:42:52.744625][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.009814fps
+[09/29 17:42:52.748522][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.007849fps
+[09/29 17:42:57.840259][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.009814fps
+[09/29 17:42:57.844121][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.009814fps
+[09/29 17:43:02.935684][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.007849fps
+[09/29 17:43:02.939227][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.009814fps
+[09/29 17:43:08.031413][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.009814fps
+[09/29 17:43:08.034502][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.007849fps
+[09/29 17:43:13.127050][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.007849fps
+[09/29 17:43:13.130646][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.007849fps
+[09/29 17:43:18.222565][info][2512][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=10.007849fps
+[09/29 17:43:18.226287][info][7284][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=10.009814fps
+[09/29 17:43:22.761401][info][24924][Pipeline.cpp:367] [AY3Z331004H] Try to stop pipeline!
+[09/29 17:43:22.761487][info][24924][Pipeline.cpp:343] [AY3Z331004H] Try to stop streams!
+[09/29 17:43:22.761528][info][24924][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Depth
+[09/29 17:43:22.834232][info][24924][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Depth
+[09/29 17:43:22.834503][info][24924][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Depth
+[09/29 17:43:22.834505][info][24924][Pipeline.cpp:363] [AY3Z331004H] Stop streams done!
+[09/29 17:43:22.835041][info][24924][Pipeline.cpp:393] [AY3Z331004H] Stop pipeline done!
+[09/29 17:43:22.841314][info][24924][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x16EB09ED8B0
+[09/29 17:43:22.841448][info][24924][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[10/01 17:57:49.693811][info][20584][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[10/01 17:57:49.713077][info][20584][DeviceManager.cpp:25] Current found device(s): (1)
+[10/01 17:57:49.713084][info][20584][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[10/01 17:57:49.713087][info][20584][DeviceManager.cpp:463] Enable net device enumeration: true
+[10/01 17:57:50.744776][info][20584][DeviceManager.cpp:25] Current device(s) list: (1)
+[10/01 17:57:50.744823][info][20584][DeviceManager.cpp:34] 	- Name: Gemini2, PID: 0x0670, SN/ID: AY3Z331004H, Connection: USB2.0
+[10/01 17:57:50.747492][warning][20584][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=108
+[10/01 17:57:50.747680][warning][20584][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=4035
+[10/01 17:57:50.747775][warning][20584][PropertyServer.cpp:120] [AY3Z331004H] Not added to property map, property not found in OBPropertyBaseInfoMap, id=5003
+[10/01 17:57:50.867830][info][20584][DeviceManager.cpp:200] Device created successfully! Name: Gemini 2, PID: 0x0670, SN/ID: AY3Z331004H FW: 1.4.98
+[10/01 17:57:50.868698][info][20584][Pipeline.cpp:54] [AY3Z331004H] Pipeline created with device: {name: Gemini 2, sn: AY3Z331004H}, @0x2D0AE8A0190
+[10/01 17:57:50.958304][warning][20584][SensorBase.cpp:153] [AY3Z331004H] Failed to update default stream profile for sensor due to no matching stream profile found
+[10/01 17:57:50.961540][info][20584][Pipeline.cpp:228] [AY3Z331004H] Check and set config done!
+[10/01 17:57:50.962179][info][20584][Pipeline.cpp:266] [AY3Z331004H] Try to start streams!
+[10/01 17:57:50.962196][info][20584][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Color, format: RGB, width: 640, height: 480, fps: 30}
+[10/01 17:57:50.962402][info][20584][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Color
+[10/01 17:57:50.962590][info][20584][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Color, format: BGR, width: 640, height: 480, fps: 30}
+[10/01 17:57:51.098111][info][20584][VideoSensor.cpp:61] [AY3Z331004H] Try to start stream: {type: Depth, format: Y16, width: 640, height: 400, fps: 30}
+[10/01 17:57:51.098132][info][20584][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPED to STARTING@Depth
+[10/01 17:57:51.098141][info][20584][VideoSensor.cpp:130] [AY3Z331004H] Start backend stream: {type: Depth, format: Y16, width: 640, height: 400, fps: 30}
+[10/01 17:57:51.166898][info][20584][Pipeline.cpp:293] [AY3Z331004H] Start streams done!
+[10/01 17:57:51.166915][info][20584][Pipeline.cpp:250] [AY3Z331004H] Pipeline start done!
+[10/01 17:57:51.275349][info][11224][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Depth
+[10/01 17:57:51.321877][info][5728][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STARTING to STREAMING@Color
+[10/01 17:57:51.677612][warning][6828][Pipeline.cpp:324] [AY3Z331004H] Output frameset queue is full, drop oldest frameset!
+[10/01 17:57:54.683957][warning][6828][Pipeline.cpp:324] [AY3Z331004H] Output frameset queue is full, drop oldest frameset! [**90 logs in 3006ms**]
+[10/01 17:57:56.284035][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=30.145739fps
+[10/01 17:57:56.286979][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=30.157780fps
+[10/01 17:57:56.341232][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.886431fps
+[10/01 17:57:56.341663][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.892387fps
+[10/01 17:58:00.728095][warning][2336][Pipeline.cpp:324] [AY3Z331004H] Output frameset queue is full, drop oldest frameset! [**77 logs in 6044ms, last: 17:58:00.428584**]
+[10/01 17:58:01.294024][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.940119fps
+[10/01 17:58:01.298460][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.934143fps
+[10/01 17:58:01.350895][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=28.343311fps
+[10/01 17:58:01.351247][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=28.348972fps
+[10/01 17:58:06.304225][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.940119fps
+[10/01 17:58:06.307290][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.946098fps
+[10/01 17:58:06.361110][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.141716fps
+[10/01 17:58:06.361541][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.135900fps
+[10/01 17:58:11.314537][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.940119fps
+[10/01 17:58:11.318073][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.934143fps
+[10/01 17:58:11.371703][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.934143fps
+[10/01 17:58:11.372288][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.940119fps
+[10/01 17:58:12.754320][warning][6828][Pipeline.cpp:324] [AY3Z331004H] Output frameset queue is full, drop oldest frameset! [**97 logs in 12026ms**]
+[10/01 17:58:16.324183][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.940119fps
+[10/01 17:58:16.328695][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.934143fps
+[10/01 17:58:16.385540][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.722721fps
+[10/01 17:58:16.385966][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.716793fps
+[10/01 17:58:21.334553][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.940119fps
+[10/01 17:58:21.337315][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.952078fps
+[10/01 17:58:21.396008][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.734583fps
+[10/01 17:58:21.396401][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.740517fps
+[10/01 17:58:26.344792][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.934143fps
+[10/01 17:58:26.347917][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.934143fps
+[10/01 17:58:26.405966][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=27.345308fps
+[10/01 17:58:26.406465][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=27.345308fps
+[10/01 17:58:31.354641][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.940119fps
+[10/01 17:58:31.358530][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.940119fps
+[10/01 17:58:31.415509][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=28.548613fps
+[10/01 17:58:31.415917][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=28.542913fps
+[10/01 17:58:36.364743][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.940119fps
+[10/01 17:58:36.369646][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.928171fps
+[10/01 17:58:36.425960][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.934143fps
+[10/01 17:58:36.426831][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.934143fps
+[10/01 17:58:36.835344][warning][6828][Pipeline.cpp:324] [AY3Z331004H] Output frameset queue is full, drop oldest frameset! [**174 logs in 24081ms**]
+[10/01 17:58:41.374710][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.940119fps
+[10/01 17:58:41.378215][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.952078fps
+[10/01 17:58:41.435675][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.940119fps
+[10/01 17:58:41.436020][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.946098fps
+[10/01 17:58:46.384899][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.940119fps
+[10/01 17:58:46.388764][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.934143fps
+[10/01 17:58:46.445993][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.341316fps
+[10/01 17:58:46.446284][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.341316fps
+[10/01 17:58:51.394995][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.940119fps
+[10/01 17:58:51.398126][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.946098fps
+[10/01 17:58:51.456215][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.540916fps
+[10/01 17:58:51.456654][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.535023fps
+[10/01 17:58:56.406478][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.934143fps
+[10/01 17:58:56.409796][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.928171fps
+[10/01 17:58:56.466912][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.934143fps
+[10/01 17:58:56.467263][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.940119fps
+[10/01 17:59:01.415636][info][11224][VideoSensor.cpp:180] [AY3Z331004H] Depth backend frame callback, frameRate=29.940119fps
+[10/01 17:59:01.419199][info][6828][SensorBase.cpp:405] [AY3Z331004H] Depth Streaming... frameRate=29.946098fps
+[10/01 17:59:01.476597][info][5728][VideoSensor.cpp:180] [AY3Z331004H] Color backend frame callback, frameRate=29.940119fps
+[10/01 17:59:01.476955][info][23804][SensorBase.cpp:405] [AY3Z331004H] Color Streaming... frameRate=29.940119fps
+[10/01 17:59:02.193906][info][20584][Pipeline.cpp:367] [AY3Z331004H] Try to stop pipeline!
+[10/01 17:59:02.193938][info][20584][Pipeline.cpp:343] [AY3Z331004H] Try to stop streams!
+[10/01 17:59:02.193957][info][20584][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Depth
+[10/01 17:59:02.277510][info][20584][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Depth
+[10/01 17:59:02.277844][info][20584][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Depth
+[10/01 17:59:02.277855][info][20584][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STREAMING to STOPPING@Color
+[10/01 17:59:02.511440][info][20584][SensorBase.cpp:216] [AY3Z331004H] Stream state changed from STOPPING to STOPPED@Color
+[10/01 17:59:02.511841][info][20584][Pipeline.cpp:357] [AY3Z331004H] Sensor stream stopped, sensorType=Color
+[10/01 17:59:02.511845][info][20584][Pipeline.cpp:363] [AY3Z331004H] Stop streams done!
+[10/01 17:59:02.512567][info][20584][Pipeline.cpp:393] [AY3Z331004H] Stop pipeline done!
+[10/01 17:59:02.530177][info][20584][Pipeline.cpp:65] [AY3Z331004H] Pipeline destroyed! @0x2D0AE8A0190
+[10/01 17:59:02.530306][info][20584][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[10/01 17:59:02.530364][info][20584][SensorBase.cpp:53] [AY3Z331004H] SensorBase is destroyed
+[10/01 17:59:02.936123][warning][25444][Pipeline.cpp:324] [AY3Z331004H] Output frameset queue is full, drop oldest frameset! [**196 logs in 26100ms, last: 17:59:02.153092**]
+[10/07 01:41:17.251303][info][26596][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[10/07 01:41:17.301910][info][26596][DeviceManager.cpp:25] Current found device(s): (0)
+[10/07 01:41:17.301931][info][26596][DeviceManager.cpp:463] Enable net device enumeration: true
+[10/07 01:41:18.345690][info][26596][DeviceManager.cpp:25] Current device(s) list: (0)
+[10/07 03:16:24.866192][info][8344][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[10/07 03:16:24.877921][info][8344][DeviceManager.cpp:25] Current found device(s): (0)
+[10/07 03:16:24.877934][info][8344][DeviceManager.cpp:463] Enable net device enumeration: true
+[10/07 03:16:25.897482][info][8344][DeviceManager.cpp:25] Current device(s) list: (0)
+[10/07 03:16:25.897526][warning][8344][ObException.cpp:32] A unrecoverable_exception has occurred!
+ - where: Pipeline.cpp(22)
+ - msg: No device found
+ - type: CAMERA_DISCONNECTED
+ - status: 112
+[10/07 03:17:30.441364][info][8744][HostTimestampProvider.cpp:36] Update clock type to: realtime(0)
+[10/07 03:17:30.452977][info][8744][DeviceManager.cpp:25] Current found device(s): (0)
+[10/07 03:17:30.452999][info][8744][DeviceManager.cpp:463] Enable net device enumeration: true
+[10/07 03:17:31.478753][info][8744][DeviceManager.cpp:25] Current device(s) list: (0)
+[10/07 03:17:31.478801][warning][8744][ObException.cpp:32] A unrecoverable_exception has occurred!
+ - where: Pipeline.cpp(22)
+ - msg: No device found
+ - type: CAMERA_DISCONNECTED
+ - status: 112
