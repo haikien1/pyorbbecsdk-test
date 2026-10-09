@@ -12,7 +12,7 @@ compare different approaches to tracking objects in video.
 
 ## Week 1: Camera Setup and RGB-D Data Processing
 
-### 1. Hello Camera (`01_hello_camera.py`)
+### 1. Hello Camera
 
 -   Explored the basic workflow for connecting to the Orbbec Gemini 2
     camera.
@@ -24,7 +24,7 @@ compare different approaches to tracking objects in video.
 **Outcome:** Built foundational understanding of how to acquire data
 from the camera for computer vision tasks.
 
-### 2. Depth Visualization (`02_depth_visualization.py`)
+### 2. Depth Visualization
 
 -   Explored depth frame acquisition and processing.
 -   Learned how depth data represents distance information.
@@ -35,7 +35,7 @@ from the camera for computer vision tasks.
 **Outcome:** Developed an understanding of how depth information can
 help estimate the distance between the camera and an observed object.
 
-### 3. Color and Depth Alignment (`03_color_and_depth_aligned.py`)
+### 3. Color and Depth Alignment
 
 -   Explored the acquisition of color and depth frames.
 -   Studied Depth-to-Color (D2C) alignment.
@@ -49,7 +49,7 @@ aligned when combining 2D detections with depth measurements.
 
 ## Week 2: Camera Geometry, 3D Representation, and Tracking
 
-### 4. Camera Calibration (`04_camera_calibration.py`)
+### 4. Camera Calibration
 
 -   Studied the purpose of camera calibration in computer vision.
 -   Explored camera intrinsic parameters, including focal lengths and
@@ -62,8 +62,7 @@ aligned when combining 2D detections with depth measurements.
 **Outcome:** Developed foundational understanding of how camera
 parameters relate 2D image coordinates to 3D positions.
 
-### 5. Point Cloud (`05_point_cloud.py`)
-
+### 5. Point Cloud
 -   Studied point clouds as representations of 3D scenes.
 -   Explored the relationship between depth images and 3D spatial data.
 -   Learned how RGB-D information can represent spatial locations.
